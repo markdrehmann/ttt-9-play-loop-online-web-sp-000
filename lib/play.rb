@@ -37,8 +37,10 @@ end
 
 def play(board)
   turn_count = 0
-  while turn_count < 10 do
+  if turn_count < 10
     turn(board)
     turn_count +=1
+  else
+    puts "Thank you for playing!"
   end
 end
