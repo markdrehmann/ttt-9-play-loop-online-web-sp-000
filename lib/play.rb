@@ -41,4 +41,8 @@ def play(board)
     turn(board)
     turn_count +=1
   end
+  if turn_count ==10
+    puts "Thank you for playing!"
+  end
+
 end
